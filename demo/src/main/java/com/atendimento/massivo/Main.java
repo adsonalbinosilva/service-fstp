@@ -21,6 +21,7 @@ public class Main {
         Path pastaProcessados = Paths.get("C:/java/fstp/processados");
         Path pastaSaida = Paths.get("C:/java/fstp/saida");
 
+        // Verifica se as pastas existem, caso contrário cria
         try {
             if (!Files.exists(pastaEntrada)) {
                 Files.createDirectories(pastaEntrada);
